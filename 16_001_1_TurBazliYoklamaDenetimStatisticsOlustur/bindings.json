@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "resources": [
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "key+\"_Credentials",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "in_Config(\"OrchestratorQueueFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "row(\"Asset\").ToString",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "row(\"OrchestratorAssetFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "in_Config(\"MailCredentials\").ToString.Trim",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "in_Config(\"OrchestratorQueueFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "strAssetName",
+          "isExpression": true
+        },
+        "folderPath": {
+          "defaultValue": "in_Config(\"OrchestratorQueueFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "in_Config(\"MailCredentials\").ToString.Trim",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "in_Config(\"OrchestratorQueueFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "strAssetName",
+          "isExpression": true
+        },
+        "folderPath": {
+          "defaultValue": "in_Config(\"OrchestratorQueueFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "in_Config(\"MailCredentials\").ToString.Trim",
+          "isExpression": false
+        },
+        "folderPath": {
+          "defaultValue": "in_Config(\"OrchestratorQueueFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    },
+    {
+      "resource": "asset",
+      "metadata": {
+        "name": {
+          "defaultValue": "strAssetName",
+          "isExpression": true
+        },
+        "folderPath": {
+          "defaultValue": "in_Config(\"OrchestratorQueueFolder\").ToString",
+          "isExpression": false
+        }
+      }
+    }
+  ]
+}
